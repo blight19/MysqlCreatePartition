@@ -4,7 +4,7 @@
 # datetime:2021/12/2
 import pymysql
 
-conn = pymysql.connect(host="10.5.37.22", user="dbamanager", password="123Gwmfc56", db="atc")
+conn = pymysql.connect(host="", user="", password="", db="atc")
 
 cursor = conn.cursor()
 cursor.execute("select id from ep_package_order_batch")
